@@ -1,0 +1,368 @@
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);  
+  
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #23527c;
+  }
+  
+  button:active {
+    background-color: #1d4569;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #007bff;
+    color: white;
+}
+/* <title>Learner Information Form</title> */
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value to control transparency */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #007bff;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      
+      h1 {
+        color: #333;
+      }
+      
+      form div {
+        margin-bottom: 10px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input[type="text"] {
+        width: 300px;
+        padding: 5px;
+      }
+      
+      button[type="submit"] {
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      .parent{
+        color: rgb(3, 2, 2);
+        text-align: center;
+      }
+      .attendance-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value to control transparency */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .attendance-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .attendance-container table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      .attendance-container th,
+      .attendance-container td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+      }
+      
+      .attendance-container th {
+        font-weight: bold;
+      }
+      
+      .attendance-container label {
+        margin-left: 5px;
+      }
+      
+      .attendance-container input[type="checkbox"] {
+        margin-right: 5px;
+      }
+      .grade-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value to control transparency */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     
+      }
+      
+      .grade-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .grade-container table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      .grade-container th,
+      .grade-container td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+      }
+      
+      .grade-container th {
+        font-weight: bold;
+      }
+      
+      .grade-container input[type="number"] {
+        width: 80px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      .report-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value to control transparency */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .report-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .report-container form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      .report-container label {
+        margin-right: 10px;
+      }
+      
+      .report-container input[type="date"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+      
+      .report-container button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .report-container button:hover {
+        background-color: #007bff;
+      }
+      .messaging-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value to control transparency */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .messaging-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .messaging-container .message-list {
+        max-height: 200px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      
+      .messaging-container #message-input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+      
+      .messaging-container button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .messaging-container button[type="submit"]:hover {
+        background-color: #007bff;
+      }
+      .student-list-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value to control transparency */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+      }
+      
+      .student-list-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        
+      }
+      
+      .student-list {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .student-list li {
+        padding: 5px 0;
+      }
+      
+      .student-list li:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+      
+      .student-list li:hover {
+        background-color: #e6e6e6;
+        cursor: pointer;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
